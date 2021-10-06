@@ -1,0 +1,22 @@
+body{
+    background-image: url("https://miro.medium.com/max/2257/1*eyuCr9KOhADGM7V4-4Mt8Q.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+#root{
+    display: flex;
+    justify-content: center;
+}
+#drum-machine{
+    width: auto;
+    margin-top: 10%;
+    background-color: rgba(133,234,252,0.4);
+}
+.pad-key{
+    display: inline-grid;
+    grid-template-areas: 
+        "my my my"
+        "my my my"
+        "my my my";
+}
